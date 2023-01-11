@@ -1,0 +1,15 @@
+n = int(input("enter the number:"))
+
+list = [ ]
+
+for i in range(n):
+
+     a=int(input("enter the elements you want to be in the list"))
+
+     list.append(a)
+
+sorted(list)
+
+list.insert(3,100)
+
+print(list)
