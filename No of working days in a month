@@ -1,0 +1,11 @@
+import numpy
+
+import datetime.date
+
+a = datetime.date(2014,2,12)
+
+b = datetime.date(2014,3,13)
+
+work = numpy.busday_count(a,b)
+
+print(work)
