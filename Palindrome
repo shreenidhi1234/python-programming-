@@ -1,0 +1,11 @@
+#checking the number is palindrome or not
+
+s =int(input("enter the number:"))
+
+ if s==s[::-1]:
+
+     print("true")
+
+ else:
+
+     print("false")
