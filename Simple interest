@@ -1,0 +1,29 @@
+#simple interset for senior citizen
+
+def simple_interset(p,t,a):
+
+    p= int(input("enter the principle amount:"))
+
+    t= int(input("enter the no .of years :"))
+
+    a= int(input("Is customer is senior citizen(y/n):"))
+
+    if a== y:
+
+        si = (p*12*t)/100
+
+    print("the simple interset of the senior citizen is ",si)
+
+    elif a == n:
+
+        si = (p*10*t)/100
+
+        print("the simple interset of thr non senior citizen is",si)
+
+        return si
+
+    else:
+
+        print("error")
+
+simple_interset(p,t,a)
