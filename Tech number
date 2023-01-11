@@ -1,0 +1,10 @@
+num= int(input("enter the four digit number:"))
+x= str(num)
+a = x[:len(x)//2]
+b = x[len(x)//2:]
+c = int(a)+int(b)
+d = c**2
+if num==d:
+    print("the given number",(num)," is tech number")
+else:
+    print("the given number",(num),"is not a tech number")
