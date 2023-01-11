@@ -1,0 +1,27 @@
+#program to find the happy numbers
+
+#should be a postive integer in starting
+
+#replacing the number by sum of the square of the digits
+
+#repeating the process till nth time
+
+num = int(input("enter the number to check whether the given number is happy number or not:"))
+
+while num!=1:
+
+    temp = num
+
+    while temp>0:
+
+        s = 0
+
+        a = temp%10
+
+        s = s+a**2
+
+        temp//=10
+
+    num = s
+
+print("true")
