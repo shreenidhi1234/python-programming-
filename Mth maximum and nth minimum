@@ -1,0 +1,31 @@
+#mth maximum and nth minimum of the list by getting it from user
+
+a = int(input("enter the number of elements:"))
+
+lst = [ ]
+
+for i in range(a):
+
+        b = int(input("enter the elements:"))
+
+        lst.append(a)
+
+m= int(input("enter the maximum number wanted:"))
+
+n= int(input("enter the minimum number wanted:"))
+
+maxi = sorted(lst)
+
+mini = sorted(lst,reverse = True)
+
+m1 = maxi[m -1]
+
+n1 = mini[n-1]
+
+print("the sum of the mth maximum and nth minimum of the list",(m1+n1))
+
+print("the difference of the mth maximum and nth minimum of the list",(m1-n1))
+
+print("the mth maximum is",(m1))
+
+print("the nth minimum is",(n1))
