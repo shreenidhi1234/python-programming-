@@ -1,0 +1,23 @@
+#lowercase and uppercase
+
+n=0
+
+upp = 0
+
+low = 0
+
+while(n!="*"):
+
+        n = input("enter the character:")
+
+        if n.isupper()==True:
+
+               upp = upp+ 1
+
+        elif n.islower()==True:
+
+                low = low + 1
+
+print("uppercase:",(upp))
+
+print("lowercase:",(low))
