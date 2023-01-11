@@ -1,0 +1,25 @@
+#
+
+alpha = ("a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z")
+
+str1 = input("enter the string:")
+
+str2 = list(str1)
+
+c = 0
+
+for i in str1:
+
+    fre = str1.count(i)
+
+    n = (alpha.index(i)+fre)
+
+    replace = alpha[n]2
+
+    str2[c] = replace
+
+    c+=1
+
+for i in str2:
+
+    print(i,end="")
