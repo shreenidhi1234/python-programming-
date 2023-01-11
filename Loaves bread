@@ -1,0 +1,35 @@
+n = float(input("enter the number of fresh loaves purchased"))
+
+a = float(input("enter the number of one day old loaves purchased:"))
+
+loaves1 = 185.0
+
+if n<=0:
+
+    print("0")
+
+elif n>=1:
+
+    new = loaves1*n
+
+if a<=0:
+
+   print("0")
+
+elif a >=0:
+
+    old = (60/100*loaves1*a)
+
+else:
+
+    print("error")
+
+tot = new+old
+
+print("regular price",(loaves1))
+
+print("amount of new loaves",(new))
+
+print("amount of day old loaves",(old))
+
+print("total amount",(tot))
