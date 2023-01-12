@@ -1,0 +1,9 @@
+m = int(input("enter the start value:"))
+
+n = int(input("enter the end value:"))
+
+k = int(input("enter the difference value:"))
+
+for i in range(m,n+1,k):
+
+    print(i)
