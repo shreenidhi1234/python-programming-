@@ -1,0 +1,15 @@
+#program to print the vowels in a string
+
+n =input("enter the string:")
+
+vowels = 0
+
+consonants = 0
+
+for i in n:
+
+    if ( i =="a" or i =="A" or i =="e" or i =="E" or i == "i" or i == "I" or i == "o" or i == "0" or i == "u" or i =="U"):
+
+      vowels = vowels + 1
+
+print("no of vowels=",(vowels))
