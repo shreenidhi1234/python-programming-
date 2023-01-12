@@ -1,0 +1,21 @@
+#sorting list in ascending and descending order
+
+n = int(input("enter the number of elements you want to be in the list"))
+
+list = [ ]
+
+for i in range(n):
+
+    a = input("enter the elements:")
+
+    list.append(a)
+
+x = input("whether you want to sort in ascending or descending (A/D):")
+
+if x =="A":
+
+    print(sorted(list))
+
+elif y =="D":
+
+    print(list,reverse = True)
