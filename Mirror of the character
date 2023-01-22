@@ -1,0 +1,7 @@
+#reverse the character 
+
+n = input("enter the character:")
+
+s = n[::-1]
+
+print(s)
