@@ -1,0 +1,11 @@
+#eligible for voting
+
+n = int(input("enter the age:"))
+
+if n>=18:
+
+    print("you are eligible to vote")
+
+else:
+
+    print(18-n,"you should wait for voting")
