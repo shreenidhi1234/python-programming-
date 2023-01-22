@@ -1,0 +1,14 @@
+#merging two lists and sorting it
+x = int(input("enter the range of the list1:"))
+y = int(input("enter the range of the list2:"))
+list1 = [ ]
+list2= [ ]
+arrange = [ ]
+for i in range(x):
+    n = input("enter the elements in the list1:")
+    list1.append(n)
+for j in range(y):
+    n1 = input("enter the elements in the list2:")
+    list2.append(n1)
+arrange = list1+list2
+print(sorted(arrange))
