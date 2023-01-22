@@ -1,0 +1,15 @@
+#program to count the maximum number of words in a sentences 
+
+import re
+
+text = "alice and bob love apple. i think so too.this is great thanks very much"
+
+max_words = 0
+
+sentences = re.split("[.!?]",text)
+
+for sentence in sentences:
+
+    max_words = max(len(sentence.split()),max_words)
+
+print("max_words:" ,{max_words})
