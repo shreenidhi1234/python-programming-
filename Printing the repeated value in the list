@@ -1,0 +1,29 @@
+#printing the repeated value in a list
+
+a = int(input("enter the range:"))
+
+arr = [ ]
+
+for z in range(a):
+
+    b = int(input("enter the number:"))
+
+    arr.append(b)
+
+x  = [ ]
+
+y  = [ ]
+
+for i in arr:
+
+    if i not in x:
+
+        x.append(i)
+
+for i in x:
+
+    if arr.count(i)>1:
+
+        y.append(i)
+
+print(y)
