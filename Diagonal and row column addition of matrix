@@ -1,0 +1,61 @@
+#Initialize matrix a  
+
+a = [    
+
+        [3,4,5],  
+
+        [7,8,9],  
+
+        [10,11,12]  
+
+    ];  
+
+#Calculates number of rows and columns present in given matrix  
+
+rows = len(a);  
+
+cols = len(a[0]);  
+
+#Calculates sum of each row of given matrix  
+
+for i in range(0, rows):  
+
+    sumRow = 0;  
+
+    for j in range(0, cols):  
+
+        sumRow = sumRow + a[i][j];  
+
+    print("Sum of " + str(i+1) +" row: " + str(sumRow));  
+
+#Calculates sum of each column of given matrix  
+
+for i in range(0, rows):  
+
+    sumCol = 0;  
+
+    for j in range(0, cols):  
+
+        sumCol = sumCol + a[j][i];  
+
+    print("Sum of " + str(i+1) +" column: " +str(sumCol));
+
+principal = 0
+
+secondary = 0;
+
+for i in range(0, rows):
+
+    for j in range(0, cols):
+
+        if (i == j):
+
+            principal += a[i][j]
+
+            if((i + j) == (rows - 1)):
+
+                secondary += a[i][j]
+
+                print("Principal Diagonal:", principal)
+
+                print("Secondary Diagonal:", secondary)
