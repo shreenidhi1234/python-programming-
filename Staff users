@@ -1,0 +1,6 @@
+
+#staff users ,non teaching staffs
+n = int(input("enter the total user:"))
+n1 = int(input("enter staff user:"))
+b = (n-n1-n1//3)
+print(b,"staff users")
