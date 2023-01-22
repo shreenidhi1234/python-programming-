@@ -1,0 +1,25 @@
+#goemetric progression
+
+def gp(a,r,n):
+
+    for i in range(0,n):
+
+        term = a*pow(r,i)
+
+        print(term,end =" ")
+
+#starting value
+
+a = 2
+
+#common ratio
+
+r = 3
+
+#ending value
+
+n = 5
+
+print(gp(a,r,n))
+
+#
