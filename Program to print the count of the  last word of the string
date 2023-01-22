@@ -1,0 +1,11 @@
+#print the last word of the string
+
+#program to print the count the last word of the string
+
+n = input("enter the string:")
+
+lst = n.split()
+
+i= len(lst)-1
+
+print(len(lst[i]))
