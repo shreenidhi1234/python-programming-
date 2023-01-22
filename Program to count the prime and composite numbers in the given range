@@ -1,0 +1,39 @@
+#composite numbers (it has many factors for a number,prime number have only one factor)
+
+#counting the prime and composite numbers
+
+a = int(input("enter the starting range:"))
+
+b = int(input("enter the ending range:"))
+
+l = [ ]
+
+count1=0
+
+count2=0
+
+for i in range(a,b+1):
+
+    l.clear()
+
+    for j in range(1,b+1):
+
+        if i%j==0:
+
+            l.append(j)
+
+        else:
+
+            continue
+
+    if len(l)>2:
+
+        count1+=1
+
+    else:
+
+        count2+=1
+
+print("composite numbers:",(count1))
+
+print("prime numbers:",(count2))
