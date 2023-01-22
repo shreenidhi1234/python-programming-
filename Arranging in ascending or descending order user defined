@@ -1,0 +1,11 @@
+#program to arrange the words in a list in alphabetical order by asking the user whether ascending or descending
+n = int(input("enter the no of elements you want to be in the list:"))
+lst = [ ]
+for i in range(n):
+    a = input("enter the elements:")
+    lst.append(a)
+order = input("A/D")
+if order == "A":
+    print(sorted(lst))
+elif order == "D":
+    print(sorted(lst,reverse = True))
