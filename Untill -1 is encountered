@@ -1,0 +1,25 @@
+n=0
+
+positive=[]
+
+negative=[]
+
+while n!=-1:
+
+    n=int(input("Enter the number:"))
+
+    if n>0:
+
+        positive.append(n)
+
+    elif n<0:
+
+        negative.append(n)
+
+pos_average=sum(positive)/len(positive)
+
+neg_average=sum(negative)/len(negative)
+
+print("Positive numbers average:",pos_average)
+
+print("Negative numbers average:",neg_average)
