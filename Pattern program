@@ -1,0 +1,21 @@
+#program to print 5 table pattern and add it in a list
+
+a = 5
+
+count = 1
+
+for i in range(4):
+
+    for j in range(0,count):
+
+        print(a,end=" ")
+
+    print()
+
+    count+=1
+
+    a = a*2
+
+list = [5,10,20,40,10,20,40,40,40]
+
+print(sum(list))
